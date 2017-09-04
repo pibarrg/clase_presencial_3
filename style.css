@@ -3,10 +3,16 @@
 }
 
 .box {
-  height: 100px;
-  border: 5px solid black;
-  background-color: gray;
+  border: 5px solid transparent;
+  background-color: transparent;
   width: 25%;
   float: left;
   box-sizing: border-box;
+  text-align: justify;
+}
+
+.box img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
