@@ -4,29 +4,33 @@
     <meta charset="utf-8">
     <title>ejercicio 5</title>
     <style media="screen">
+
       .camara {
-        text-align: center;
-        position: static;
+        position: relative;
+        width: 243px;
+        height: 285px;
+        margin: 0 auto;
+      }
+
+      .img {
+        width: 100%;
       }
 
       .ribbon {
         position: absolute;
         top: 35px;
-        right: 25%;
-        }
-
-
-
+        z-index: 100;
+        width: 200px;
+        height: auto;
+        left: 22px;
       }
 
     </style>
   </head>
   <body>
     <div class="camara">
-      <img src="images/ribbon_oferta.png" alt="camara-oferta">
-      <div class="ribbon">
-        <img src="images/label_red.png" alt="ribbon">
-      </div>
+        <img src="images/label_red.png" alt="ribbon" class="ribbon">
+        <img src="images/ribbon_oferta.png" alt="camara-oferta" class="img">
     </div>
 
 
